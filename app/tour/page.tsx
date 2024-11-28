@@ -47,7 +47,7 @@ const Tour = () => {
 
     return (
         <div>
-            <div className=''>
+            <div className='grid grid-cols-2 gap-5'>
                 {
                     tours?.map((tour) => (
                         <div className='border border-yellow-400 p-1 mb-4 rounded-xl pt-6' key={tour.id}>

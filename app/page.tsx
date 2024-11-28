@@ -4,11 +4,9 @@ import React from 'react';
 const HomePage = () => {
   return (
     <div>
-      <h1 className='text-3xl'>Home Page</h1>
+      <h1 className='text-3xl'>NextJS + Typescript App</h1>
 
-      <Link href={'/about'}>
-        <button className='bg-yellow-500 rounded-xl p-2'>About</button>
-      </Link>
+    
     </div>
   );
 };
